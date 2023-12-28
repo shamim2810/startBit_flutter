@@ -13,47 +13,62 @@ class HomePage extends StatelessWidget {
         leading: Icon(Icons.search),
       ),
       body: SafeArea(
-          child: Container(
+          child: SingleChildScrollView(
             child: Column(
-              //crossAxisAlignment: CrossAxisAlignment.center,
-              mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                Row(
-                  //crossAxisAlignment: CrossAxisAlignment.center,
-                  mainAxisAlignment: MainAxisAlignment.center,
-                  children: [
-                    Container(
-                      height: 100,
-                      width: 100,
-                      color: Colors.blue,
-                    ),
-                    SizedBox(width: 5,),
-                    Container(
-                      height: 100,
-                      width: 100,
-                      color: Colors.green,
-                    ),
-                  ],
+                Container(
+                  height: 100,
+                  width: double.infinity,
+                  color: Colors.pink,
                 ),
-                SizedBox(height: 5,),
-                Row(
-                  mainAxisAlignment: MainAxisAlignment.center,
-                  children: [
-                    Container(
-                    height: 100,
-                    width: 100,
-                    color: Colors.red,
-                  ),
-                    SizedBox(width: 5,),
-                    Container(
-                      height: 100,
-                      width: 100,
-                      color: Colors.pink,
-                    ),],
-                )
+                Container(
+                  height: 100,
+                  width: double.infinity,
+                  color: Colors.teal,
+                ),
+                Container(
+                  height: 100,
+                  width: double.infinity,
+                  color: Colors.pink,
+                ),
+                Container(
+                  height: 100,
+                  width: double.infinity,
+                  color: Colors.teal,
+                ),
+                Container(
+                  height: 100,
+                  width: double.infinity,
+                  color: Colors.pink,
+                ),
+                Container(
+                  height: 100,
+                  width: double.infinity,
+                  color: Colors.teal,
+                ),
+                Container(
+                  height: 100,
+                  width: double.infinity,
+                  color: Colors.pink,
+                ),
+                Container(
+                  height: 100,
+                  width: double.infinity,
+                  color: Colors.teal,
+                ),
+                Container(
+                  height: 100,
+                  width: double.infinity,
+                  color: Colors.pink,
+                ),
+                Container(
+                  height: 100,
+                  width: double.infinity,
+                  color: Colors.teal,
+                ),
               ],
             ),
-          ),
+          )
       ),
     );
   }
